@@ -34,11 +34,13 @@ export default [
         type: 'texture',
         path: 'textures/5.png'
     },
+    /*
     {
         name: 'sushiModel',
         type: 'gltfModel',
         path: 'models/sushi.glb'
     } ,
+    */
     {
         name: 'wave1',
         type: 'texture',
