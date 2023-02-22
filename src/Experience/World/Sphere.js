@@ -16,7 +16,7 @@ export default class Sphere {
         // invert the geometry on the x-axis so that all of the faces point inward
         geometry.scale( - 1, 1, 1 );
         
-        const imageSource = './images/test.png'
+        const imageSource = './images/stitchedOutputProcessed.jpg'
         const image = new Image()
         const texture = new THREE.Texture(image)
         image.addEventListener('load', () =>
